@@ -804,7 +804,7 @@ html,body
 }
 
 .parallax2{
-	background: url(assets/images/bg-2.jpg);
+	background: url(/assets/images/bg-2.jpg);
 	height: 375px;
 	background-attachment: fixed;
     background-position: center;
@@ -820,7 +820,7 @@ html,body
 }
 
 .parallax3{
-	background: url(assets/images/bg-3.jpg);
+	background: url(/assets/images/bg-3.jpg);
     height: 800px;
 	background-attachment: fixed;
     background-position: center;
