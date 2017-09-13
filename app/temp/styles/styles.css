@@ -790,7 +790,7 @@ html,body
 }
 
 .parallax{
-    background: url("file:///Users/alexraby/Desktop//Projects/conquer/docs/assets/images/bg-1.jpg");
+    background: url(/assets/images/bg-1.jpg);
 	height: 275px;
     background-position: center;
     background-size: cover;
@@ -799,13 +799,12 @@ html,body
 @media (min-width: 800px) {
 
   .parallax {
-    background: url("file:///Users/alexraby/Desktop//Projects/conquer/docs/assets/images/bg-1.jpg");
     height: 600px;
   }
 }
 
 .parallax2{
-	background: url("file:///Users/alexraby/Desktop//Projects/conquer/docs/assets/images/bg-2.jpg");
+	background: url(assets/images/bg-2.jpg);
 	height: 375px;
 	background-attachment: fixed;
     background-position: center;
@@ -821,7 +820,7 @@ html,body
 }
 
 .parallax3{
-	background: url("file:///Users/alexraby/Desktop//Projects/conquer/docs/assets/images/bg-3.jpg");
+	background: url(../assets/images/bg-3.jpg);
     height: 800px;
 	background-attachment: fixed;
     background-position: center;
