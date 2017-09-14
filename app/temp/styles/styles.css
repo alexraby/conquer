@@ -790,7 +790,7 @@ html,body
 }
 
 .parallax{
-    background: url(assets/images/bg-1.jpg);
+    background: url(/assets/images/bg-1.jpg) fixed;
 	height: 275px;
     background-position: center;
     background-size: cover;
@@ -804,11 +804,9 @@ html,body
 }
 
 .parallax2{
-	background: url(/assets/images/bg-2.jpg);
+	background: url(/assets/images/bg-2.jpg) fixed;
 	height: 375px;
-	background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -820,11 +818,9 @@ html,body
 }
 
 .parallax3{
-	background: url(/assets/images/bg-3.jpg);
+	background: url(/assets/images/bg-3.jpg) fixed;
     height: 800px;
-	background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
 }
 
